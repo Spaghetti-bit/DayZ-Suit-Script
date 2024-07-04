@@ -10,7 +10,7 @@ class CfgAddons
 {
     class PreloadAddons
     {
-        class DayZ-Suit-Script
+        class DayZ_Suit_Script
         {
             list[]={};
         };
@@ -19,7 +19,7 @@ class CfgAddons
 
 class CfgMods
 {
-    class DayZ-Suit-Script
+    class DayZ_Suit_Script
     {
         name="";
         dir="DayZ-Suit-Script";
