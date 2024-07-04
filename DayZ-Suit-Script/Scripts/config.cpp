@@ -10,7 +10,7 @@ class CfgAddons
 {
     class PreloadAddons
     {
-        class ModTemplate
+        class DayZ-Suit-Script
         {
             list[]={};
         };
@@ -19,10 +19,10 @@ class CfgAddons
 
 class CfgMods
 {
-    class ModTemplate
+    class DayZ-Suit-Script
     {
         name="";
-        dir="ModTemplate";
+        dir="DayZ-Suit-Script";
         picture="";
         action="";
         author="";
@@ -43,21 +43,21 @@ class CfgMods
 
 			class engineScriptModule 
 			{ 
-				files[] = { "ModTemplate/Scripts/1_Core"};
+				files[] = { "DayZ-Suit-Script/Scripts/1_Core"};
 			};
 
 			class gameScriptModule
 			{
-				files[] = { "ModTemplate/Scripts/3_Game" };
+				files[] = { "DayZ-Suit-Script/Scripts/3_Game" };
 			};
 			class worldScriptModule
 			{
-				files[] = { "ModTemplate/Scripts/4_World" };
+				files[] = { "DayZ-Suit-Script/Scripts/4_World" };
 			};
 
 			class missionScriptModule 
 			{
-				files[] = { "ModTemplate/Scripts/5_Mission" };
+				files[] = { "DayZ-Suit-Script/Scripts/5_Mission" };
 			};
 		};
     };
